@@ -39,6 +39,13 @@
             box-shadow: none;
         }
 
+
+        .container-fluid {
+            margin-top: 0px;
+            margin-bottom: 75px;
+            height: 100px;
+        }
+
         .navbar-nav {
             gap: 20px;
         }
@@ -47,7 +54,9 @@
             color: white;
             font-size: 17px;
         }
-
+        a.navbar-brand {
+            padding-left: 50px;
+        }
         .nav-item a:hover {
             background: rgb(255, 209, 129);
             background: linear-gradient(162deg, rgba(255, 209, 129, 1) 0%, rgba(255, 255, 255, 0.8981967787114846) 0%, rgba(255, 173,  0, 0.819765406162465) 52%, rgba(255, 255, 255, 0.7133228291316527) 100%, rgba(255, 209, 129, 1) 100%);
@@ -124,7 +133,8 @@
         .container-fluid {
             position: fixed;
             margin-top: 50px;
-            margin-left: 20px;
+            margin-left: 0px;
+            padding-left: 0px;
             width: 100%;
         }
 
@@ -500,7 +510,7 @@
         <div class="overlay">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
+                    <div style="background-color: #000000" class="container-fluid">
                         <a class="navbar-brand" href="#">
                             <img src="./index/images/G5-Logo-B-White-on-Black-Border-V1.png" alt="Logo" width="200"
                                 height="100" class="d-inline-block align-text-top">
