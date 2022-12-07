@@ -252,7 +252,7 @@
             background: linear-gradient(0deg,
                     rgba(255, 255, 255, 0.8099614845938375) 0%,
                     rgba(221, 109, 0, 0.5634628851540616) 2%,
-                    rgba(221, 109, 0, 0.8015581232492998) 100%);
+                    rgba(221, 109, 0, 0.804) 100%);
             color: #f1f1f1;
             width: 100%;
             padding: 20px;
@@ -387,15 +387,11 @@
         @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
         .footheader {
-            position: relative;
+            width: 100%;
+            margin-top: 224px;
+            position: absolute;
             text-align: center;
-            background-image: linear-gradient(to right top,
-                    #cc7833,
-                    #c27c2d,
-                    #ca7a39,
-                    #cf7a18,
-                    #f59f3d);
-            color: white;
+            
         }
 
         .flex {
@@ -579,26 +575,31 @@
                     </div>
                 </div>
             </div>
+            <div class="footheader">
+                <div>
+                    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                        <defs>
+                            <path id="gentle-wave"
+                                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                        </defs>
+                        <g class="parallax">
+                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(228, 140, 54,0.7" />
+                            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(228, 140, 54,0.5)" />
+                            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(228, 140, 54,0.3)" />
+                            <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(228, 140, 54, 0.804)" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+
+
+
+
         </div>
 
     </div>
-    <div class="footheader">
-        <div>
-            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-                <defs>
-                    <path id="gentle-wave"
-                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-                </defs>
-                <g class="parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-                </g>
-            </svg>
-        </div>
-    </div>
+    
 
 
     <footer class="footer" id="foorear">
